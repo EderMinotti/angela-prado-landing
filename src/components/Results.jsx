@@ -2,7 +2,7 @@ import Carrossel from "./Carrossel";
 
 export const Results = () => {
   return (
-    <section className="bg-emerald-800">
+    <section className="bg-emerald-800 shadow-md lg: w-[90%] rounded-xl text-center">
       <div>
         <h2 className="text-2xl font-black text-white m-3">Cuidado que Sustenta Cada Passo:</h2>
         <p className="m-6 text-white">

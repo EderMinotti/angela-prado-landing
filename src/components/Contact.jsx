@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const Contact = () => {
   return (
-    <section className="text-center h-screen flex flex-col justify-center gap-5">
+    <section className="text-center h-screen flex flex-col mt-30 gap-5">
       <h2>Me siga nas redes sociais:</h2>
       <ul>
         <Link to={"https://www.instagram.com/angela_prado_podologa_/"}>

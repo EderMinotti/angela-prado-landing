@@ -5,6 +5,8 @@ export const Menu = ({menuState}) => {
     function handleClick() {
         menuState((prevState)=> !prevState)
     }
+
+    
   return (
     <ul className="fixed w-full bg-white p-4 flex flex-col gap-3 z-3 animate__animated animate__fadeInDown">
       <li>

@@ -6,7 +6,7 @@ export const Localization = () => {
     <section className=" bg-transparent flex flex-col">
         <h2 className=" flex items-center gap-2 m-3 text-(--cor-verde) text-2xl ml-3 font-bold"><FaLocationDot/>Localização:</h2>
       <figure className="m-5">
-        <img className="border rounded-xl" src="./location.png" alt="" />
+        <img className="rounded-xl shadow-md" src="./location.png" alt="" />
       </figure>
       <ul className="flex flex-col gap-3">
         <li className="flex ml-1 justify-start items-center text-base gap-x-1">
