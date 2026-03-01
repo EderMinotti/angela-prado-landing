@@ -1,16 +1,71 @@
-# React + Vite
+🦶 Landing Page – Ângela Prado Podóloga
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma landing page institucional desenvolvida para a profissional Ângela Prado Podóloga, com o objetivo de apresentar seus serviços, sua história profissional e facilitar o contato com clientes.
 
-Currently, two official plugins are available:
+A página foi pensada para ser simples, responsiva e direta, funcionando bem tanto no celular quanto no computador.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📸 Preview do Projeto
 
-## React Compiler
+![Versão mobile](./src/assets/readme/tela_app1.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+🚀 Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Seção apresentando a importancia da podologia
+
+✅ Seção "Sobre" com informações da profissional
+
+✅ Área de contato com informações para atendimento
+
+✅ Botões flutuantes fixos na tela para:
+
+WhatsApp
+
+Instagram
+
+✅ Layout responsivo (mobile e desktop)
+
+✅ Interface limpa e focada na conversão de contato
+
+## 🛠️ Tecnologias Utilizadas
+
+- React  
+- TypeScript  
+- Tailwind CSS  
+- Swiper (carrossel)  
+- React Router DOM (SPA e rotas)  
+- Animate.css (animações)
+
+▶️ Como rodar o projeto localmente
+
+# Clone o repositório
+git clone https://github.com/EderMinotti/angela-prado-landing.git
+
+# Entre na pasta do projeto
+cd angela-prado-landing
+
+# Instale as dependências
+npm install
+
+# Rode o projeto
+npm run dev
+
+Este projeto foi criado com foco em:
+
+Praticar criação de layouts responsivos
+
+Organização de componentes no React
+
+Uso do Tailwind CSS para estilização
+
+Construção de uma landing page realista para portfólio
+
+
+👨‍💻 Autor
+
+Desenvolvido por Eder Paulo Minotti
+
+
+📄 Licença
+
+Este projeto é apenas para fins educacionais e de portfólio.
