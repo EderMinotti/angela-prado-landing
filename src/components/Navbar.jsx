@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { Path } from "../rotes/PathRotes";
 import { Link } from "react-router-dom";
 
-export const NavBar = () => {
+export const Navbar = () => {
 const [isDesktop, setIsDesktop] = useState(false);
 
   useEffect(() => {

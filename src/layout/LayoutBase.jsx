@@ -1,12 +1,12 @@
 import { Outlet } from "react-router-dom";
-import { NavBar } from "../components/NavBar";
+import { Navbar } from "../components/Navbar";
 import { SocialLinks } from "../components/SocialLinks";
 import { Footer } from "../components/Footer";
 
 export const LayoutBase = () => {
   return (
     <section className="min-h-screen flex flex-col">
-      <NavBar />
+      <Navbar />
       <Outlet />
       <SocialLinks />
       <Footer />
